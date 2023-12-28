@@ -20,8 +20,21 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
-
-
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: your name
+RegisterNumber: 
+'''
+def selection_sort(array,size):
+    for ind in range(size):
+        min_index=ind
+        for j in range(ind+1,size):
+            if array[j]<array[min_index]:
+                min_index=j
+        (array[ind],array[min_index])=(array[min_index],array[ind])
+arr=eval(input())
+size=len(arr)
+selection_sort(arr,size)
+print(arr)
 
 
 
@@ -30,13 +43,33 @@ ii)	#Insertion Sort
 ```
 
 
-
+''' 
+Program to sort the elements in the list using the Insertion Sort algorithm.
+Developed by: DHANUSH P
+RegisterNumber: 23001835
+'''
+def selection_sort(array,size):
+    for ind in range(size):
+        min_index=ind
+        for j in range(ind+1,size):
+            if array[j]<array[min_index]:
+                min_index=j
+        (array[ind],array[min_index])=(array[min_index],array[ind])
+arr=eval(input())
+size=len(arr)
+selection_sort(arr,size)
+print(arr)
 
 
 
 ```
 
 ## Output:
+
+![Screenshot 2023-12-28 221225](https://github.com/Dhanush0143/Sorting-Algorithm/assets/139841924/6eca5bb0-4cd7-4b34-9f3b-a48767ca6103)
+![Screenshot 2023-12-28 221244](https://github.com/Dhanush0143/Sorting-Algorithm/assets/139841924/b181fa51-3637-4292-bf04-707b432070dc)
+
+
 
 
 ## Result:
